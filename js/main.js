@@ -1,6 +1,10 @@
 ;(function ($) {
 	"use strict";
 
+	var lazyLoadInstance = new LazyLoad({
+		// Your custom settings go here
+	  });
+	  
 	//*=============menu sticky js =============*//
 	var $window = $(window);
 	var didScroll,
